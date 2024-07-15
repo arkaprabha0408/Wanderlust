@@ -1,0 +1,106 @@
+body{
+    font-family:"Plus Jakarta Sans",sans-serif !important;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+.container{
+    flex: 1;
+}
+.navbar{
+    height:5rem;
+    background-color:white;
+}
+.fa-compass{
+    color:#fe424d;
+    font-size: 2rem;
+}
+.f-info-links a{
+    text-decoration: none;
+    color:#222222;
+}
+.f-info-links a:hover{
+    text-decoration: underline;
+}
+.f-info-socials,.f-info-links,.f-info-brand{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.f-info{
+    text-align:center;
+    display:flex;
+    height:8rem;
+    background-color: #ebebeb;
+    flex-wrap:wrap;
+}
+.f-info-socials i{
+    font-size: 1.2rem;
+    margin-right: 1rem;
+}
+.card{
+    border: none !important;
+    margin-bottom: 2rem;
+}
+.specific-card{
+    border: none !important;
+    margin-bottom: 2rem;
+    width:70vh !important;
+    
+}
+.card-img-top{
+    border-radius: 1rem !important;
+}
+/* .card-body{
+    width:100%;
+} */
+.card-text {
+    width: 100%;
+    /* text-align: center; */
+  }
+.listing-link{
+    text-decoration: none;
+}
+.card-img-overlay{
+    opacity: 0;
+}
+.card-img-overlay:hover{
+    opacity: 0.2;
+    background-color: white;
+}
+.add-btn,.edit-btn{
+    background-color:#fe4248 !important;
+}
+.show-img{
+    width:100%;
+}
+.review-card {
+    border: 1px solid #ddd;  /* Light grey border */
+    border-radius: 5px;      /* Rounded corners */
+    padding: 15px;           /* Padding inside the card */
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1); /* Optional: slight shadow for better visual separation */
+    background-color: #fff;  /* White background */
+  }
+  
+  .review-card-body {
+    padding: 10px;           /* Additional padding inside the card body */
+  }
+  
+  .review-card-title {
+    margin-bottom: 10px;     /* Space below the title */
+    font-size: 18px;         /* Font size of the title */
+  }
+  
+  .review-card-text {
+    margin-bottom: 5px;      /* Space below the text */
+    font-size: 16px;         /* Font size of the text */
+  }
+  
+  /* Map Styling */
+
+  #map { 
+    height:400px;
+    width:90vh;
+
+    }
